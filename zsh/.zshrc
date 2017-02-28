@@ -17,3 +17,5 @@ unsetopt correct
 
 # source configs
 for config (~/.zsh/*.zsh) source $config
+
+bindkey '^r' history-incremental-search-backward
