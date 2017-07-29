@@ -1,6 +1,5 @@
 - Install [iTerm](https://www.iterm2.com)
 - Install [Dracula](https://draculatheme.com/iterm/) theme for iTerm
-- Install [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) fonts
 - Install [Homebrew](https://brew.sh)
 - Install [zsh](https://rick.cogley.info/post/use-homebrew-zsh-instead-of-the-osx-default/)
 - Install [zim](https://github.com/Eriner/zim)
