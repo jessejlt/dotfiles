@@ -1,3 +1,6 @@
+Basics
+---
+
 - Install [iTerm](https://www.iterm2.com)
 - Install [Dracula](https://draculatheme.com/iterm/) theme for iTerm
 - Install [Homebrew](https://brew.sh)
@@ -8,3 +11,4 @@
 - Restore dotfiles `cd .dotfiles; stow spacemacs` etc
 - Install [emacs](https://github.com/syl20bnr/spacemacs#macos)
 - Install [Source Code Pro](https://github.com/caskroom/homebrew-fonts) fonts
+- Install emacs [golang layer](https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Blang/go)
