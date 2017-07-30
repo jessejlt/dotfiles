@@ -1,6 +1,7 @@
 Basics
 ---
 
+- Install [Xcode](xcode-select --install)
 - Install [iTerm](https://www.iterm2.com)
 - Install [Dracula](https://draculatheme.com/iterm/) theme for iTerm
 - Install [Homebrew](https://brew.sh)
