@@ -9,3 +9,8 @@ alias ll='ls++'
 alias ag="ag --color --color-line-number '0;35' --color-match '46;30' --color-path '4;36'"
 alias tree='tree -CAFa -I "CVS|*.*.package|.svn|.git|.hg|node_modules|bower_components" --dirsfirst'
 
+if [[ `uname` == 'Linux' ]]; then
+	alias ls='ls -F --color=auto'
+elif [[ `uname` == 'Darwin' ]]; then
+	alias ls='ls -G'
+fi
