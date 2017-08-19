@@ -327,6 +327,9 @@ you should place your code here."
   ;; performance
   (setq large-file-warning-threshold 25000000)
 
+  ;; Use system clipboard after deleting a word
+  (setq save-interprogram-paste-before-kill t)
+
   ;; Misc
   (setq-default require-final-newline t)
 

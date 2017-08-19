@@ -19,3 +19,12 @@ unsetopt correct
 for config (~/.zsh/*.zsh) source $config
 
 bindkey '^r' history-incremental-search-backward
+
+# Completions
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    source $(brew --prefix)/etc/bash_completion
+fi
+
+if [ -f $(brew --prefix)/share/zsh-completions ]; then
+    fpath=(/usr/local/share/zsh-completions $fpath)
+fi
