@@ -8,6 +8,7 @@ Basics
 - Install [zsh](https://rick.cogley.info/post/use-homebrew-zsh-instead-of-the-osx-default/)
 - Install [zim](https://github.com/Eriner/zim)
 - Install stow `brew install stow`
+- Install tmux `brew install tmux`
 - Clone [dotfiles](https://github.com/jessejlt/dotfiles) `git clone https://github.com/jessejlt/dotfiles.git .dotfiles`
 - Restore dotfiles `cd .dotfiles; stow spacemacs` etc
 - Install [emacs](https://github.com/syl20bnr/spacemacs#macos)
