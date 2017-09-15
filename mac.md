@@ -5,8 +5,11 @@ Basics
 - Install [iTerm](https://www.iterm2.com)
 - Install [Dracula](https://draculatheme.com/iterm/) theme for iTerm
 - Install [Homebrew](https://brew.sh)
+- Install git `brew install git`
+- Install go `brew install go`
 - Install [zsh](https://rick.cogley.info/post/use-homebrew-zsh-instead-of-the-osx-default/)
 - Install [zim](https://github.com/Eriner/zim)
+- Install [zplug](https://github.com/zplug/zplug) `brew install zplug`
 - Install stow `brew install stow`
 - Install [tmux](https://github.com/gpakosz/.tmux/blob/master/README.md) `brew install tmux`
 - Install Mosh `brew install mobile-shell`
