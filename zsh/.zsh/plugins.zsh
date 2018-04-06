@@ -1,8 +1,8 @@
-[ ! -d ~/.zplug ] && curl -sL zplug.sh/installer | zsh
-source ~/.zplug/init.zsh
+zplug "zplug/zplug", hook-build:'zplug --self-manage'
+zplug "b4b4r07/zsh-vimode-visual", use:"*.zsh", defer:3
+zplug "zsh-users/zsh-syntax-highlighting", defer:2
 
-zplug "djui/alias-tips"
-zplug "sharat87/zsh-vim-mode"
-
-! zplug check && zplug install
-zplug load
+# Completions
+zplug "zsh-users/zsh-completions"
+zplug "plugins/kubectl", from:oh-my-zsh
+zplug "plugins/docker", from:oh-my-zsh

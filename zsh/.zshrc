@@ -16,6 +16,8 @@ fi
 unsetopt correct
 
 # source configs
+export ZPLUG_HOME=/usr/local/opt/zplug
+source $ZPLUG_HOME/init.zsh
 for config (~/.zsh/*.zsh) source $config
 
 bindkey '^r' history-incremental-search-backward
