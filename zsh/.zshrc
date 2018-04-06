@@ -21,3 +21,12 @@ source $ZPLUG_HOME/init.zsh
 for config (~/.zsh/*.zsh) source $config
 
 bindkey '^r' history-incremental-search-backward
+
+# Completions
+if [ -f $(brew --prefix)/share/zsh-completions ]; then
+    fpath=(/usr/local/share/zsh-completions $fpath)
+fi
+
+if [ $commands[kubectl] ]; then
+    source <(kubectl completion zsh)
+fi
